@@ -1,11 +1,13 @@
-import React, { Fragment } from "react";
+import React, { lazy, Suspense } from "react";
 import LandingPage from "./landingPage/page";
 
 const Card = () => {
   return (
-    <Fragment>
-      <LandingPage />
-    </Fragment>
+    <React.StrictMode>
+      <Suspense fallback={<div>Loading...</div>}>
+        <LandingPage />
+      </Suspense>
+    </React.StrictMode>
   );
 };
 

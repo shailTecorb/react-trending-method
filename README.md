@@ -1,6 +1,6 @@
 # react-trending-method
 
-    # learning taiwind css
+# 1- learning taiwind css
     Tailwind CSS allows you to quickly prototype and build UI components without writing custom CSS. You can apply styles directly to HTML elements using utility classes.
     
 ## Getting Started:
@@ -12,3 +12,9 @@ Basic Understanding: Learning the basic utility classes (spacing, colors, typogr
 Gradual Learning: As you become more comfortable, you can explore more advanced classes (flexbox, grids, animations) and customization options.
 
 Practice: Like any tool, practice is essential. Experiment with small projects, read documentation, and explore real-world examples to deepen your understanding.
+
+
+# 2- Use of useTransition and startTransition
+
+ let you mark some state updates as not urgent. Other state updates are considered urgent by default. React will allow urgent state updates (for example, updating a text input) to interrupt non-urgent state updates (for example, rendering a list of search results)
+ code is updated on Concurrent folder
